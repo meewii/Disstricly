@@ -1,0 +1,12 @@
+<div class="navbar navbar-fixed-top">
+	<img class="logo" src="styles/img/logo_red.png">
+</div>
+<div class="container" align="center">
+	<div class="row">
+		<h2 class="caption">Hello little Berliner.</h2>
+		<section>
+			<h3>In which part of Berlin do you live?</h3>
+			<select class="dropdown-menu" ng-change="selected()" ng-model="selecteddistrict" ng-options="district.name for district in districtsList"></select>
+		</section>
+	</div>
+</div>

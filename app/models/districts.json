@@ -1,0 +1,82 @@
+[
+	{
+		"_id": "01",
+		"name": "Mitte"
+	},
+	{
+		"_id": "02", 
+		"name": "Tiergarten"
+	},
+	{
+		"_id": "03", 
+		"name": "Wedding"
+	},
+	{
+		"_id": "04", 
+		"name": "Prenzlauer Berg"
+	},
+	{
+		"_id": "05", 
+		"name": "Friedrichshain"
+	},
+	{
+		"_id": "06", 
+		"name": "Kreuzberg"
+	},
+	{
+		"_id": "07", 
+		"name": "Charlottenburg"
+	},
+	{
+		"_id": "08", 
+		"name": "Spandau"
+	},
+	{
+		"_id": "09", 
+		"name": "Wilmersdorf"
+	},
+	{
+		"_id": "10", 
+		"name": "Zehlendorf"
+	},
+	{
+		"_id": "11", 
+		"name": "Schöneberg"
+	},
+	{
+		"_id": "12", 
+		"name": "Steglitz"
+	},
+	{
+		"_id": "13", 
+		"name": "Tempelhof"
+	},
+	{
+		"_id": "14", 
+		"name": "Neukölln"
+	},
+	{
+		"_id": "15", 
+		"name": "Treptow"
+	},
+	{
+		"_id": "16", 
+		"name": "Köpenick"
+	},
+	{
+		"_id": "17", 
+		"name": "Lichtenberg"
+	},
+	{
+		"_id": "18", 
+		"name": "Weißensee"
+	},
+	{
+		"_id": "19", 
+		"name": "Pankow"
+	},
+	{
+		"_id": "20", 
+		"name": "Reinickendorf"
+	}
+]

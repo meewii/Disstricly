@@ -1,0 +1,17 @@
+<div class="navbar navbar-fixed-top">
+	<img class="logo" src="styles/img/logo_red.png">
+</div>
+<div class="container" align="center">
+	<div class="row">
+
+		<h2 class="caption">As a real insider you of course know how {{chosenDistrict.name}} sounds, don’t you?</h2>
+		
+		<div class="player">
+			<div id="iframe"></div>
+			<div class="hider" ng-show="hider"></div>
+		</div>
+
+		<button class="btn-playagain" ng-click="submitSound(true)">Totally {{chosenDistrict.name}}!</button>
+		<button class="btn-giveup" ng-click="submitSound(false)">Not at all {{chosenDistrict.name}}!</button>
+	</div>
+</div>

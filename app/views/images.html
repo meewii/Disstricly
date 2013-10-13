@@ -1,0 +1,37 @@
+<div class="navbar navbar-fixed-top">
+	<img class="logo" src="styles/img/logo_red.png">
+</div>
+<div  ng-hide="waiting">
+	<h2 class="caption">Please select 5 photos that show your beloved DISTRICT</h2>
+		<div class="row">
+			<ul class="images-list">	
+				<li class="images-item" ng-repeat="item in items | orderBy:'id'" ng-class="{'selected':selectedImg[item.id]==true}">
+					<label for="item_{{ item.id }}">
+						<img src="{{ item.thumbUrl }}" />
+					</label>
+					<input type="checkbox" id="item_{{ item.id }}" ng-model="selectedImg[item.id]">
+					<img class="imgcheck" src="styles/img/check.png">
+				</li>
+			</ul>
+		</div>
+
+
+		<div class="navbar navbar-fixed-bottom">
+			<p>
+				<input class="btn" type="submit" value="Submit" ng-click="submitSelection()">
+			<p>
+		</div>
+</div>
+
+
+<div class="container" align="center" ng-show="waiting">
+	
+	<div class="row">
+	 	<h2 class="caption">We’re calculating very complicated analyses...</h2>
+	 	<br>
+		<img src="styles/img/waiting.gif" class="imgwaiting">
+	 	<br>
+		<p>Thank you for your patience.</p>
+	</div>
+
+</div>
