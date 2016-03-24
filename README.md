@@ -6,13 +6,12 @@ Disstrictly is a hyperlocal, multi-medial and highly disruptive online-game for 
 
 Team
 --------
-@sweetdakini
-@anderspree
-@masinfreu
+Disstrictly was created in 24 hours during the Berlin Geekettes Hackathon in October 2013, in collaboration with @sweetdakini
+and @anderspree
 
 
 
-## setup
+## Setup
 
 Simply start the web server on port 8000:
 
